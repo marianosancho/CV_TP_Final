@@ -1,0 +1,6 @@
+# Ignorar carpetas
+data/
+flagged/
+
+# Ignorar archivo ZIP
+dataset.zip
