@@ -1,16 +1,16 @@
 {
-"name": "TensorFlow GPU Dev",
-"image": "tensorflow/tensorflow:2.13.0-gpu",
-"runArgs": [
-"--gpus=all"
-],
-"mounts": [
-"source=${localWorkspaceFolder},target=/workspace,type=bind"
-],
-"workspaceFolder": "/workspace",
-"settings": {
-"terminal.integrated.defaultProfile.linux": "bash"
-},
-"postCreateCommand": "pip install --upgrade pip && pip install ipython && pip install --extra-index-url https://pypi.fury.io/justinbm/simple/ faiss-gpu",
-"remoteUser": "root"
+  "name": "PyTorch GPU Dev",
+  "image": "pytorch/pytorch:2.0.1-cuda11.7-cudnn8-runtime",
+  "runArgs": [
+    "--gpus=all"
+  ],
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind"
+  ],
+  "workspaceFolder": "/workspace",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "postCreateCommand": "apt-get update && apt-get install -y libgl1 && pip install --upgrade pip && pip install -r requirements.txt",
+  "remoteUser": "root"
 }
