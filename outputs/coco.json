@@ -1,0 +1,365 @@
+{
+    "images": [
+        {
+            "id": 0,
+            "file_name": "test_yolo2.jpg",
+            "width": 750,
+            "height": 562
+        },
+        {
+            "id": 1,
+            "file_name": "test_yolo1.jpg",
+            "width": 275,
+            "height": 183
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 0,
+            "category_id": 1,
+            "bbox": [
+                164,
+                400,
+                84,
+                63
+            ],
+            "area": 5292,
+            "iscrowd": 0
+        },
+        {
+            "id": 2,
+            "image_id": 0,
+            "category_id": 1,
+            "bbox": [
+                502,
+                357,
+                36,
+                27
+            ],
+            "area": 972,
+            "iscrowd": 0
+        },
+        {
+            "id": 3,
+            "image_id": 0,
+            "category_id": 23,
+            "bbox": [
+                280,
+                374,
+                85,
+                80
+            ],
+            "area": 6800,
+            "iscrowd": 0
+        },
+        {
+            "id": 4,
+            "image_id": 0,
+            "category_id": 25,
+            "bbox": [
+                110,
+                414,
+                56,
+                53
+            ],
+            "area": 2968,
+            "iscrowd": 0
+        },
+        {
+            "id": 5,
+            "image_id": 1,
+            "category_id": 38,
+            "bbox": [
+                93,
+                78,
+                91,
+                87
+            ],
+            "area": 7917,
+            "iscrowd": 0
+        }
+    ],
+    "categories": [
+        {
+            "id": 0,
+            "name": "Afghan"
+        },
+        {
+            "id": 1,
+            "name": "African Wild Dog"
+        },
+        {
+            "id": 2,
+            "name": "Airedale"
+        },
+        {
+            "id": 3,
+            "name": "American Hairless"
+        },
+        {
+            "id": 4,
+            "name": "American Spaniel"
+        },
+        {
+            "id": 5,
+            "name": "Basenji"
+        },
+        {
+            "id": 6,
+            "name": "Basset"
+        },
+        {
+            "id": 7,
+            "name": "Beagle"
+        },
+        {
+            "id": 8,
+            "name": "Bearded Collie"
+        },
+        {
+            "id": 9,
+            "name": "Bermaise"
+        },
+        {
+            "id": 10,
+            "name": "Bichon Frise"
+        },
+        {
+            "id": 11,
+            "name": "Blenheim"
+        },
+        {
+            "id": 12,
+            "name": "Bloodhound"
+        },
+        {
+            "id": 13,
+            "name": "Bluetick"
+        },
+        {
+            "id": 14,
+            "name": "Border Collie"
+        },
+        {
+            "id": 15,
+            "name": "Borzoi"
+        },
+        {
+            "id": 16,
+            "name": "Boston Terrier"
+        },
+        {
+            "id": 17,
+            "name": "Boxer"
+        },
+        {
+            "id": 18,
+            "name": "Bull Mastiff"
+        },
+        {
+            "id": 19,
+            "name": "Bull Terrier"
+        },
+        {
+            "id": 20,
+            "name": "Bulldog"
+        },
+        {
+            "id": 21,
+            "name": "Cairn"
+        },
+        {
+            "id": 22,
+            "name": "Chihuahua"
+        },
+        {
+            "id": 23,
+            "name": "Chinese Crested"
+        },
+        {
+            "id": 24,
+            "name": "Chow"
+        },
+        {
+            "id": 25,
+            "name": "Clumber"
+        },
+        {
+            "id": 26,
+            "name": "Cockapoo"
+        },
+        {
+            "id": 27,
+            "name": "Cocker"
+        },
+        {
+            "id": 28,
+            "name": "Collie"
+        },
+        {
+            "id": 29,
+            "name": "Corgi"
+        },
+        {
+            "id": 30,
+            "name": "Coyote"
+        },
+        {
+            "id": 31,
+            "name": "Dalmation"
+        },
+        {
+            "id": 32,
+            "name": "Dhole"
+        },
+        {
+            "id": 33,
+            "name": "Dingo"
+        },
+        {
+            "id": 34,
+            "name": "Doberman"
+        },
+        {
+            "id": 35,
+            "name": "Elk Hound"
+        },
+        {
+            "id": 36,
+            "name": "French Bulldog"
+        },
+        {
+            "id": 37,
+            "name": "German Sheperd"
+        },
+        {
+            "id": 38,
+            "name": "Golden Retriever"
+        },
+        {
+            "id": 39,
+            "name": "Great Dane"
+        },
+        {
+            "id": 40,
+            "name": "Great Perenees"
+        },
+        {
+            "id": 41,
+            "name": "Greyhound"
+        },
+        {
+            "id": 42,
+            "name": "Groenendael"
+        },
+        {
+            "id": 43,
+            "name": "Irish Spaniel"
+        },
+        {
+            "id": 44,
+            "name": "Irish Wolfhound"
+        },
+        {
+            "id": 45,
+            "name": "Japanese Spaniel"
+        },
+        {
+            "id": 46,
+            "name": "Komondor"
+        },
+        {
+            "id": 47,
+            "name": "Labradoodle"
+        },
+        {
+            "id": 48,
+            "name": "Labrador"
+        },
+        {
+            "id": 49,
+            "name": "Lhasa"
+        },
+        {
+            "id": 50,
+            "name": "Malinois"
+        },
+        {
+            "id": 51,
+            "name": "Maltese"
+        },
+        {
+            "id": 52,
+            "name": "Mex Hairless"
+        },
+        {
+            "id": 53,
+            "name": "Newfoundland"
+        },
+        {
+            "id": 54,
+            "name": "Pekinese"
+        },
+        {
+            "id": 55,
+            "name": "Pit Bull"
+        },
+        {
+            "id": 56,
+            "name": "Pomeranian"
+        },
+        {
+            "id": 57,
+            "name": "Poodle"
+        },
+        {
+            "id": 58,
+            "name": "Pug"
+        },
+        {
+            "id": 59,
+            "name": "Rhodesian"
+        },
+        {
+            "id": 60,
+            "name": "Rottweiler"
+        },
+        {
+            "id": 61,
+            "name": "Saint Bernard"
+        },
+        {
+            "id": 62,
+            "name": "Schnauzer"
+        },
+        {
+            "id": 63,
+            "name": "Scotch Terrier"
+        },
+        {
+            "id": 64,
+            "name": "Shar_Pei"
+        },
+        {
+            "id": 65,
+            "name": "Shiba Inu"
+        },
+        {
+            "id": 66,
+            "name": "Shih-Tzu"
+        },
+        {
+            "id": 67,
+            "name": "Siberian Husky"
+        },
+        {
+            "id": 68,
+            "name": "Vizsla"
+        },
+        {
+            "id": 69,
+            "name": "Yorkie"
+        }
+    ]
+}

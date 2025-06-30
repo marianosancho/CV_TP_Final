@@ -5,7 +5,7 @@
 # Instrucciones para ejecutar el Notebook
 
 Este repositorio esta pensado para ser ejecutado tanto de forma local o en plataformas en línea como Google Colab.
-En lo particular, recomiendo que sea ejecutado en Colab si no se tiene a disposicion una GPU potente.
+En lo particular, recomiendo que sea ejecutado en Colab si no se tiene a disposición una GPU potente.
 
 ---
 ## Ejecuciones
@@ -13,8 +13,8 @@ En lo particular, recomiendo que sea ejecutado en Colab si no se tiene a disposi
 ## Colab: 
 El notebook esta pensado para que se instalen automáticamente todas las dependencias necesarias para su correcta ejecución, como tambien así la descarga del dataset a utilizar.
 
-Para abrir el notebook: 
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mRUonxoyVZcOv-eSvxFCJpoWmVy08c60?usp=sharing)
 ---
 ## Requisitos Local (Windows):
 
